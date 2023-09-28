@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/speacial_keyboard"
+        android:layout_width="fill_parent"
+        android:layout_height="300.0dp"
+        android:background="@color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+
+        <LinearLayout
+            android:id="@+id/emojiss"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dp"
+            android:layout_alignParentBottom="true"
+            android:background="#FFEB3B"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="9.0">
+
+            <ImageView
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:padding="11.0dp"
+                android:src="@drawable/ic_start" />
+
+            <ImageView
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:padding="11.0dp"
+                android:src="@drawable/ic_character_emoji" />
+
+            <ImageView
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:padding="11.0dp"
+                android:src="@drawable/ic_arrow_emoji" />
+
+            <ImageView
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="11.0dp"
+                android:src="@drawable/ic_omega" />
+
+            <ImageView
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="11.0dp"
+                android:src="@drawable/ic_abc" />
+
+            <ImageView
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="10.0dp"
+                android:src="@drawable/ic_gun" />
+
+            <ImageView
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="11.0dp"
+                android:src="@drawable/ic_smile" />
+
+            <ImageView
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="9.0dp"
+                android:src="@drawable/ic_flags_emoji" />
+
+            <ImageView
+                android:id="@+id/btnDelete"
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="9.0dp"
+                android:src="@drawable/delete_ic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible"
+            android:weightSum="9.0">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="0.0dp"
+                android:layout_height="45.0dp"
+                android:layout_weight="8.0"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager_special_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layoutTabs" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/viewToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_special_text"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dp"
+        app:layout_constraintBottom_toTopOf="@+id/rela_edit"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:id="@+id/rela_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/bg_entry_round"
+        app:layout_constraintBottom_toTopOf="@+id/speacial_keyboard"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/image_emoji"
+            android:layout_width="36.0dp"
+            android:layout_height="36.0dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8.0dp"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_emoji" />
+
+
+        <com.umrani.tool.view.main.MyEdittext
+            android:id="@+id/edit_special"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="15.0dp"
+            android:layout_marginEnd="8.0dp"
+            android:layout_toStartOf="@+id/image_emoji"
+            android:background="@null"
+            android:fontFamily="@font/lato_bold"
+            android:hint="Type Your Name"
+            android:maxLines="1"
+            android:textColor="#ff2b2a2a"
+            android:textColorHint="@color/gray"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

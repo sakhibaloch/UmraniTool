@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <com.umrani.tool.Normal
+        android:id="@+id/normal"
+        android:layout_width="1000dp"
+        android:layout_height="match_parent"
+
+        android:visibility="gone" />
+
+    <com.umrani.tool.Trickshot
+        android:id="@+id/trickshot"
+        android:layout_width="1000dp"
+        android:layout_height="1000dp"
+
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <com.umrani.tool.NineBall
+        android:id="@+id/nineBall"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/canvasMarginTop"
+        android:visibility="gone" />
+
+    <com.umrani.tool.aimbotFov
+        android:id="@+id/aimbotFovv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/canvasMarginTop"
+        android:visibility="gone" />
+
+</FrameLayout>

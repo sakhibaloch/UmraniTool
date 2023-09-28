@@ -1,0 +1,201 @@
+{
+  "project_info": {
+    "project_number": "878329079906",
+    "firebase_url": "https://singup-login-70080.firebaseio.com",
+    "project_id": "singup-login-70080",
+    "storage_bucket": "singup-login-70080.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878329079906:android:1eeb03fcd9cffd3b81893b",
+        "android_client_info": {
+          "package_name": "Com.VcTalkInc.Vc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878329079906-t3v490bnahtgr414pi89492db5fistt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Com.VcTalkInc.Vc",
+            "certificate_hash": "0f44ce5bdeaa66ad91e665bd1b86f61988f37810"
+          }
+        },
+        {
+          "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6Ayp-EnoTD3aWUxAQVefU4LfUvUihsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878329079906:android:61a9918fd1d196e681893b",
+        "android_client_info": {
+          "package_name": "com.UmraniDeveloper.Vpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6Ayp-EnoTD3aWUxAQVefU4LfUvUihsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878329079906:android:759a198cc4ca667681893b",
+        "android_client_info": {
+          "package_name": "com.br.netflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6Ayp-EnoTD3aWUxAQVefU4LfUvUihsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878329079906:android:b008f67be04399cf81893b",
+        "android_client_info": {
+          "package_name": "com.example.firebasgoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6Ayp-EnoTD3aWUxAQVefU4LfUvUihsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878329079906:android:d6b6befd942b4d2c81893b",
+        "android_client_info": {
+          "package_name": "com.login.page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878329079906-pu1b1huuo6q9fiil2791hpiacgufbnnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.login.page",
+            "certificate_hash": "0f44ce5bdeaa66ad91e665bd1b86f61988f37810"
+          }
+        },
+        {
+          "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6Ayp-EnoTD3aWUxAQVefU4LfUvUihsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878329079906:android:6271633a2c92992c81893b",
+        "android_client_info": {
+          "package_name": "com.umrani.tool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6Ayp-EnoTD3aWUxAQVefU4LfUvUihsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878329079906-jfpbf7gfalj2l4kjkt1s1tjuloc36877.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

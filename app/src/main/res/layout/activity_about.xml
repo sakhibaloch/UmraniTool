@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <ImageView
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/about"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ABOUT UMRANI TOOL"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color_header"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color_header"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:maxLines="9000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center|fill_vertical"
+                    android:text="Umrani Tool is made by sagheer umrani and umrani tool was launched in 2015 from Pakistan.\n❖ ──✦──✦──✦── ❖\n\n▓➷ What is Umrani Tool ?\n\nUmrani tool is a android OS tool app and you can hack Online games with Umrani tool.\n❖ ──✦──✦──✦── ❖\n\n▓➷ What's New in Umrani tool ?\n\nPUBG hack.\nPUBG lite hack.\n8 Ball pool hack.\nBoost phone ram.\nGet android device info\nRoot checker.\nSaftynet checker.\nPlay integrity checker.\nFile manager.\n❖ ──✦──✦──✦── ❖\n\n▓➷ What is Features of Umrani Tool ?\n\nUmrani Tool have too many awesome tools for Android devices.\nYou can boost phone memory.\nYou can hack online hacks.\nSupported android 5 to 13 plus.\nSupported Emulator devices.\nYou can get amazing tools for Android.\nonline auto update system.\n❖ ──✦──✦──✦── ❖\n\n▓➷ What is Advantages Of Umrani Tool ?\nBoost your phone.\nPUBG conquer reach.\nOnline games hack.\nAll tools in 1 app.\n❖ ──✦──✦──✦── ❖\n\n▓➷ What is Disadvantage of Umrani Tool ?\n\nif you use Umrani tool for hacking games and enjoy 24 hours gaming with Umrani tool hack you will loss your carrier, you will loss your education and get less marks on exams because of using Umrani tool 24 hours and also its very dangerous for your health so be careful and use Umrani tool cheat less time don't use it full day.\n❖ ──✦──✦──✦── ❖\n\n▓➷ What Languages are used for made umrani tool ?\n\nJava program\nkotlin program\nc# program\nC program\nC++ program\nlua program\nGo program\n❖ ──✦──✦──✦── ❖\n\n▓➷ Why used login page in umrani tool ?\n\ni am providing best paid cheats in umrani tool for free then i use login page for make my income and note login page is very secured don't try to crack it if you crack umrani tool you all data will be deleted and also gaming cheats will never work.\n❖ ──✦──✦──✦── ❖\n\n▓➷ How to use umrani tool ?\n\nit's very simple to use it , simple click on get key and watch ads complete all tasks and copy key then login Umrani tool and use all feature and for cheaters if device is rooted then use it drictly if you are using not root device you can use virtual or container and enjoy it also you can use vmos or Vphone gaga .\n\n\n"
+/>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                </Space>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

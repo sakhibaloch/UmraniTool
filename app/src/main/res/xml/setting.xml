@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference android:title="" />
+
+    <Preference
+        android:layout="@layout/custom_preference_layout"
+        android:title="Umrani Tool Settings" />
+
+    <PreferenceCategory
+        app:title="Virtual Xposed Settings">
+
+        <SwitchPreferenceCompat
+                app:key="xp_enable"
+                app:title="@string/enable_xposed" />
+
+        <Preference
+                android:dependency="xp_enable"
+                app:key="xp_module"
+                app:summary="@string/jump_module"
+                app:title="@string/module_setting" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="Virtual Root Settings">
+
+        <SwitchPreferenceCompat
+                app:key="xp_hide"
+                app:title="@string/hide_xposed" />
+
+        <SwitchPreferenceCompat
+                app:key="root_hide"
+                app:title="@string/hide_root" />
+
+        <SwitchPreferenceCompat
+                app:key="daemon_enable"
+                app:title="@string/daemon_enable" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="Games Settings">
+
+    <Preference
+        android:key="delete_gust_pubg"
+        android:title="PUBG RESET GUST"
+        android:summary="This is for reset gust account of pubg"/>
+
+        <Preference
+            android:key="crash_fix_pubg"
+            android:title="PUBG CRASH FIX"
+            android:summary="This is for fix pubg game crashing"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="Other Tool Settings">
+
+        <Preference
+            android:key="gms_manager"
+            android:title="@string/gms_manager"
+            android:summary="Google Play For virtual"/>
+
+
+        <Preference
+            android:key="fake_location"
+            android:title="Fake Location"
+            android:summary="Change location for Cloned apps"/>
+
+        <Preference
+            android:key="update_tool"
+            android:title="Update Umrani Tool"
+            android:summary="Get more faetures on umrani tool and fix bugs"/>
+
+        <SwitchPreferenceCompat
+            app:key="auto_light"
+            app:summary="Disable your phone auto brightness"
+            app:title="Disable auto brightness" />
+
+        <SeekBarPreference
+            app:key="light_seekbar"
+            app:title="Brightness"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="40"
+            app:min="0"
+            app:showSeekBarValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="Block_Notifcation"
+            app:summary="When your are playing game notifications will block"
+            app:title="Block Notification" />
+
+        <DropDownPreference
+            android:key="sound_mode"
+            android:title="Sound Mode"
+            android:summary="Click her and change your phone sound mode"
+            android:entries="@array/sound_modes"
+            android:entryValues="@array/sound_mode_values"
+            android:defaultValue="normal" />
+
+        <Preference android:title="" />
+        <Preference android:title="" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|bottom"
+    android:background="@color/background_color"
+    android:id="@+id/splashProggres">
+
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="182dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/iconfloating" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginBottom="200dp"
+        android:gravity="center_horizontal|bottom"
+        android:indeterminate="true" />
+
+</LinearLayout>
+

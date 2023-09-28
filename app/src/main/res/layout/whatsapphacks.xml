@@ -1,0 +1,242 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/whatsapp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="30dp" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="UMRANI TOOL WHATSAPP HACKS"
+        android:textColor="@color/text_color_header"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/noteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="NOTE: For unban account you need to send these mails after every 2 days and use different Gmails every time. Your account will unban. If you want to ban someone, send these mails 3 times in 1 day."
+        android:textAlignment="center"
+        android:textColor="@color/text_color_header"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/noteTextView"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Rest of your views go here -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Unban WhatsApp Account"
+                android:textColor="@color/text_color_header"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/unbanbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner"
+                android:hint="Number with country code"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@color/text_color_header"
+                android:textColorHint="#A1676767" />
+
+            <Button
+                android:id="@+id/unbanbutton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner"
+                android:text="UNBAN  NOW  V1"
+                android:textColor="@color/text_color_header"
+                android:textStyle="bold"
+                app:backgroundTint="@color/background_color_50" />
+
+
+            <Button
+                android:id="@+id/unbanbutton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner"
+                android:text="UNBAN  NOW  V2"
+                android:textColor="@color/text_color_header"
+                android:textStyle="bold"
+                app:backgroundTint="@color/background_color_50" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ban WhatsApp Account"
+                android:textColor="@color/text_color_header"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/banbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner"
+                android:hint="Number With country code"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@color/text_color_header"
+                android:textColorHint="#A1676767" />
+
+            <Button
+                android:id="@+id/banbutton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner"
+                android:text="BAN  NOW  V1"
+                android:textColor="@color/text_color_header"
+                android:textStyle="bold"
+                app:backgroundTint="@color/background_color_50" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+
+            <Button
+                android:id="@+id/banbutton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner"
+                android:text="BAN  NOW  V2"
+                android:textColor="@color/text_color_header"
+                android:textStyle="bold"
+                app:backgroundTint="@color/background_color_50" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/banbutton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner"
+                android:text="BAN  NOW  V3"
+                android:textColor="@color/text_color_header"
+                android:textStyle="bold"
+                app:backgroundTint="@color/background_color_50" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/black" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Crash WhatsApp Account"
+                android:textColor="@color/text_color_header"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/crashbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner"
+                android:hint="Number with country code"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@color/text_color_header"
+                android:textColorHint="#A1676767" />
+
+            <Button
+                android:id="@+id/crashbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner"
+                android:text="CRASH  NOW  "
+                android:textColor="@color/text_color_header"
+                android:textStyle="bold"
+                app:backgroundTint="@color/background_color_50"/>
+
+            <Button
+                android:id="@+id/otpbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner"
+                android:text="CLICK HERE FOR HACK OTP"
+                android:textColor="@color/text_color_header"
+                android:textStyle="bold"
+                app:backgroundTint="@color/background_color_50"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

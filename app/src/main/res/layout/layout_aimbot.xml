@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/board"
+        android:layout_width="@dimen/boardWidth"
+        android:layout_height="@dimen/boardHeight"
+        android:layout_gravity="center"
+        tools:ignore="UselessParent">
+
+
+        <com.umrani.tool.aimbotFov
+            android:id="@+id/aimbotFovv"
+            android:layout_width="@dimen/canvasWidth"
+            android:layout_height="@dimen/canvasHeight"
+            android:layout_marginTop="@dimen/canvasMarginTop"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_normal"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_marginStart="@dimen/buttonNormalMarginStart"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_toEndOf="@+id/btn_hide"
+            android:background="@drawable/button_normal"
+            android:text="NORMAL"
+            android:textColor="#fff"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_trickshot"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/btn_normal"
+            android:background="@drawable/button_trickshot"
+            android:text="TRICK SHOT"
+            android:textColor="#fff"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_nineBall"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_marginEnd="@dimen/buttonNineBallMarginEnd"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/btn_hide"
+            android:background="@drawable/button_nineball"
+            android:text="NINE BALL"
+            android:textColor="#fff"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_hide"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_marginEnd="@dimen/buttonCloseMarginEnd"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_hide"
+            android:text="HIDE"
+            android:textColor="#fff"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+</FrameLayout>
